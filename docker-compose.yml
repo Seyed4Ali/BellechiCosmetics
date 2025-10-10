@@ -19,9 +19,9 @@ services:
     image: postgres:15
     restart: unless-stopped
     environment:
-      POSTGRES_DB: BellechiCosmetic
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: "Ali21$$Msj1234"
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
 
     volumes:
       - db_data:/var/lib/postgresql/data
