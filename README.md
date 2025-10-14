@@ -1,4 +1,3 @@
-# BellechiCosmetics
 # 💄 Bellechi Cosmetics
 
 یک پلتفرم فروشگاهی برای محصولات آرایشی و بهداشتی با رابط کاربری مدرن، ساخته شده با **React + FastAPI + Docker**.
